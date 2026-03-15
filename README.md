@@ -8,7 +8,7 @@ The network consists of two Layer 3 switches and several client devices distribu
 Inter-VLAN routing is handled by the primary switch, while a router provides a simulated internet gateway.
 
 Here is a visual diagram of the finished product
-![image alt]
+![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/8defdc51b5999ac6493cf466cc3860d0771c31a5/Network%20Diagram.png)
 
 ## Network Topology
 The network contains:
