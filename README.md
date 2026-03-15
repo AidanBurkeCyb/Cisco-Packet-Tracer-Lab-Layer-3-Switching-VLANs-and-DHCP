@@ -45,7 +45,7 @@ Router: 10.0.0.1
 Switch1: 10.0.0.2
 
 # Key Features Implemented
-##VLAN Segmentation
+## VLAN Segmentation
 Devices were separated into different VLANs to simulate network segmentation and reduce broadcast domains.
 ##Inter-VLAN Routing
 Switch 1 performs routing between VLAN 10 and VLAN 20 using Switch Virtual Interfaces (SVIs).
@@ -70,8 +70,8 @@ Inter-VLAN routing allowed communication between VLAN 10 and VLAN 20
 ![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/a98b093c62756c2a20fd00d770d2321abe181246/Ping%20Test%20VLAN%202%20-%3E%20VLAN%201.png)
 	
 Hosts were able to reach the gateway router
+
 ![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/d4b5719f974f0e76e9ad57968943ecd84ec55d88/Pinging%20Router%20from%20VLAN%2010.png)
-![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/d4b5719f974f0e76e9ad57968943ecd84ec55d88/Pinging%20Router%20from%20Device%20in%20VLAN%2020.png)
 
 # Skills Demonstrated
 	•	VLAN configuration
@@ -87,7 +87,3 @@ Hosts were able to reach the gateway router
 	•	Packet Tracer lab file (.pkt)
 	•	Network topology diagram
 	•	Switch and router configuration exports
-
-# Configuration files were exported using:
-show running-config
-
