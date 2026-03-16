@@ -47,17 +47,22 @@ Switch1: 10.0.0.2
 # Key Features Implemented
 ## VLAN Segmentation
 Devices were separated into different VLANs to simulate network segmentation and reduce broadcast domains.
-##Inter-VLAN Routing
+
+## Inter-VLAN Routing
 Switch 1 performs routing between VLAN 10 and VLAN 20 using Switch Virtual Interfaces (SVIs).
-##DHCP Services
+
+## DHCP Services
 Switch 1 acts as a DHCP server, automatically assigning IP addresses to hosts within each VLAN.
-##Trunk Link Between Switches
+
+## Trunk Link Between Switches
 A trunk connection between the switches allows VLAN 20 to span both switches, enabling devices on different switches to remain in the same broadcast domain.
-##Internet Gateway
+
+## Internet Gateway
 A router connected to Switch 1 provides a simulated upstream connection to the internet.
 
 # Network Verification
 The network was tested to confirm correct functionality:
+
 Devices successfully received IP addresses via DHCP
 	![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/bd23d02267a9ac2e6a655cf76c998df72a5d6f83/DHCDP%20Laptop%201.png)
 	![image alt](https://github.com/AidanBurkeCyb/Cisco-Packet-Tracer-Lab-Layer-3-Switching-VLANs-and-DHCP/blob/bd23d02267a9ac2e6a655cf76c998df72a5d6f83/DHCP%20Laptop%202.png)
